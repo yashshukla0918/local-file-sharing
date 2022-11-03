@@ -1,11 +1,24 @@
 #logo-mainpage {
-    height: 80%;
-    width: 60%;
+    height: 40%;
+    width: 40%;
 }
 
 @media screen and (min-width: 480px) {
     .main-para {
         border-radius: 0.5rem;
     }
+    .paragraph{
+        font-size: 2.5vh;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .paragraph{
+     margin: 2rem;
+    }    
+}
+
+.paragraph{
+    text-align: justify;
 }
 
