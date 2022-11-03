@@ -1,5 +1,7 @@
 import './App.css';
+import Footer from './components/Footer';
 import Header from './components/Header';
+import MainPage from './components/MainPage';
 function App() {
   let hrStyle ={
     "width" : "100%",
@@ -9,6 +11,8 @@ function App() {
    <>
    <Header title="Local File Sharing"></Header>
    <hr style={hrStyle}/>
+   <MainPage></MainPage>
+   <Footer></Footer>
    </>
   );
 }
