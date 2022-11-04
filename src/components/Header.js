@@ -17,12 +17,16 @@ const Header = (props) => {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
           </ul>
           <ul className='navbar-nav '>
+          <li className="nav-item ">
+              <Link className="nav-link btn  text-dark mx-2 p-1 my-2 my-sm-0 " to="/AboutUs">About App</Link>
+            </li> 
           <li className="nav-item">
               <Link className="nav-link btn btn-outline-dark mx-2 m p-1 my-2 my-sm-0 dd" to="/sub-components/Upload">Upload</Link>
             </li>
             <li className="nav-item ">
               <Link className="nav-link btn btn-outline-dark mx-2 p-1 my-2 my-sm-0 dd" to="./sub-components/Download">Download</Link>
             </li> 
+            
           </ul>
         </div>
       </div>
