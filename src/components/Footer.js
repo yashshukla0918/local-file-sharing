@@ -3,8 +3,6 @@ import logo from '../assets/favicon.ico'
 const Footer = () => {
     let footerStyle = {
         width: "100%",
-        // top : "100vh",
-        position : "sticky"
     }
     return (
         <>
