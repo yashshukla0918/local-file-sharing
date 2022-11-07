@@ -11,10 +11,10 @@ const MainPage = () => {
     return (
         <>
             <div className="container">
-                <div className="row row-empty text-center">
+                <div className="row row-empty text-center"><center >
                     <p className="bg-dark text-light text-center p-4 my-4 main-para">
-                        <center > Welcome to Local File Sharing App</center>
-                    </p>
+                         Welcome to Local File Sharing App
+                    </p></center>
                 </div>
                 <div className="row text-center my-3">
                     {/* <div className="col-sm-2"></div> */}
@@ -32,19 +32,15 @@ const MainPage = () => {
                     <div className="col-sm-4">
                         {/* <img id='logo-mainpage' src={Logo} alt="Logo" /> */}
 
-                        <p className="paragraph">
+                        <div className="paragraph row">
                             <Routes>
                                 <Route path='/AboutUs' element={<AboutUs/>} />
                             </Routes>
-                            <hr />
-                            <span ><center>For Uploading Files</center></span>
-                            <hr />
-                         
-                            <hr />
-                            <span ><center>For Downloading Files</center></span> 
-                            <hr />
-                           
-                        </p>
+                            <h3 className='border-bottom border-top p-3 border-dark text-center m-4' >For Uploading Files</h3>
+                             <span className='paragraph'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam aspernatur perferendis in tenetur explicabo dolorum iste nesciunt officia nihil quos dicta expedita nisi vitae quam minus, unde id beatae. Consectetur.</span>
+                            <h3 className='border-bottom border-top p-3 border-dark text-center my-4'>For Downloading Files</h3> 
+                            <span className='paragraph'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam aspernatur perferendis in tenetur explicabo dolorum iste nesciunt officia nihil quos dicta expedita nisi vitae quam minus, unde id beatae. Consectetur.</span> 
+                        </div>
 
                     </div>
 

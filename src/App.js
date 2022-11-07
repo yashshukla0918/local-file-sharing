@@ -15,15 +15,10 @@ import AboutUs from './components/AboutUs';
 
 
 function App() {
-  let hrStyle = {
-    "width": "100%",
-    "margin-top": "0.5px",
-  }
   return (
     <>
       <Router>
         <Header title="Local File Sharing"></Header>
-        <hr style={hrStyle} />
         <Routes>
           <Route path="/" element={<MainPage></MainPage>} >
             <Route path='/AboutUs' element={<AboutUs/>}></Route>
